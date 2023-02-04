@@ -1,10 +1,8 @@
-import java.util.Random;
-import java.util.Scanner;
+while (true) {
+            System.out.println("Balance: $" + balance);
+            System.out.print("Enter bet (0 to quit): ");
+            bet = scanner.nextInt();
 
-public class SlotMachineSimulator {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
-        String[] slots = {"Cherry", "Lemon", "Orange", "Plum", "Bell", "Bar", "Seven"};
-        int balance = 1000;
-        int bet;
+            if (bet == 0) {
+                break;
+            }
